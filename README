@@ -1,0 +1,8 @@
+This is a very simple barebones example of how to build a bridge building game.
+
+For now this requires the development versions of SDL and Box2D to be installed and in your path.
+
+For Windows, create a Visual Studio project and add all the source files and link to sdl and box2d.
+
+For Linux, simply type the following on the commandline:
+g++ main.cpp -lSDL -lBox2D
